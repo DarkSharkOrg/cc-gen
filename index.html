@@ -13,41 +13,27 @@
     <script async="" src="https://cdn.sessionstack.com/sessionstack.js"></script>
 </head>
 <style type="text/css">
-    html {
-        font-family: sans-serif;
-        -ms-text-size-adjust: 100%;
-        -webkit-text-size-adjust: 100%;
-    }
     body {
-        margin: 0;
-        background-color: #121212; /* Strong dark background */
-        color: #FFFFFF; /* White text for strong contrast */
+        background-color: #121212; /* Dark background */
+        color: #FFFFFF; /* Light text */
         font-family: 'Lato', sans-serif;
     }
     .navigations {
-        display: flex;
-        background-color: #1f1f1f; /* Dark navigation background */
-        align-items: center;
-        justify-content: center;
-        height: 100px;
-        margin-bottom: 30px;
-        border-bottom: 2px solid #444; /* Add separation */
-    }
-    .logo img {
-        max-width: 200px;
+        background-color: #1f1f1f; /* Dark navigation bar */
+        border-bottom: 2px solid #444;
     }
     h1, h2, h3, p {
-        color: #E0E0E0; /* Light gray for headings and paragraphs */
+        color: #E0E0E0; /* Light gray text */
     }
     a {
-        color: #BB86FC; /* Vibrant accent color */
+        color: #BB86FC; /* Vibrant purple links */
     }
     a:hover {
-        color: #3700B3; /* Slightly darker hover effect */
+        color: #3700B3; /* Darker purple on hover */
     }
     .btn-primary {
-        color: #000;
-        background-color: #BB86FC;
+        color: #FFFFFF;
+        background-color: #BB86FC; /* Purple button */
         border-color: #BB86FC;
     }
     .btn-primary:hover {
@@ -55,10 +41,9 @@
         border-color: #3700B3;
     }
     .form-control {
-        background-color: #1f1f1f;
-        color: #FFFFFF;
+        background-color: #1f1f1f; /* Dark input fields */
+        color: #FFFFFF; /* White text */
         border: 1px solid #BB86FC;
-        border-radius: 4px;
     }
     .form-control:focus {
         border-color: #3700B3;
@@ -66,12 +51,6 @@
     }
     .checkbox label {
         color: #E0E0E0;
-    }
-    .checkbox input[type=checkbox]:checked + label {
-        color: #BB86FC;
-    }
-    hr {
-        border-color: #444;
     }
     .input-group-addon {
         background-color: #1f1f1f;
@@ -81,14 +60,13 @@
     footer {
         background-color: #1f1f1f;
         color: #E0E0E0;
-        padding: 20px;
         text-align: center;
     }
 </style>
 <body>
     <div class="navigations">
         <div class="logo">
-            <img src="logo.png" alt="Logo">
+            <img src="logo.png" alt="Logo" style="max-width: 200px;">
         </div>
     </div>
     <div class="container">
